@@ -1,0 +1,11 @@
+$schema: https://api.gitbook.com/gitbook-docs.yaml
+site:
+  title: LeweDesk
+  structure:
+    - type: space
+      key: space-lewedesk
+      title: LeweDesk
+      path: lewedesk
+      default: true
+      content:
+        directory: ./

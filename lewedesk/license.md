@@ -1,12 +1,6 @@
 # License
 
-LeweDesk is released under the **MIT License**.
-
-You may use, copy, modify, merge, publish, distribute, sublicense and sell copies of the software, provided that the copyright notice and the permission notice are included in all copies or substantial portions of the software.
-
-The software is provided "as is", without warranty of any kind, express or implied. In no event shall the authors or copyright holders be liable for any claim, damages or other liability arising from the use of the software.
-
-The full license text is part of the source code repository (file `LICENSE`).
+LeweDesk cannot be licensed yet.
 
 ## Third-party components
 

@@ -32,6 +32,10 @@ Your avatar is shown in the top bar and next to your name on issues.
 
 Choose per event whether you get an email and/or an in-app notification. See [Notifications](notifications.md).
 
+## 2FA tab
+
+Set up two factor authentication with an authenticator app, or disable it again (this needs your password). See [Two Factor Authentication](two-factor-authentication.md).
+
 ## Options tab
 
 <figure><img src="../.gitbook/assets/profile-options.png" alt=""><figcaption></figcaption></figure>

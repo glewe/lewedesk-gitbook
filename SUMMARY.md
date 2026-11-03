@@ -20,6 +20,7 @@
     * [Tags](administration/issues/tags.md)
 * [User Guide](user-guide/README.md)
   * [Login and Registration](user-guide/login-registration.md)
+  * [Two Factor Authentication](user-guide/two-factor-authentication.md)
   * [Dashboard](user-guide/dashboard.md)
   * [Issues](user-guide/issues/README.md)
     * [List Issues](user-guide/issues/list-issues.md)

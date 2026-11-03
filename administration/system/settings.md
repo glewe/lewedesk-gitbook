@@ -29,6 +29,7 @@ The page has four tabs. Click **Save** on a tab to store the changes. A setting 
 | Disable Caching        | Sends no-caching instructions. Try this if you see unwanted caching effects in your server environment.                                 | off           |
 | Debug Mode             | Shows debugging information in the browser console                                                                                      | off           |
 | Under Maintenance      | Puts the application into maintenance mode. Only administrators can access it, everybody else sees the maintenance page.               | off           |
+| Force Two Factor Authentication | Forces users to set up two factor authentication, e.g. via Google or Microsoft Authenticator. A user who has not set up 2FA yet is sent to the setup page after the regular login. Sessions that are already open are not affected. See [Two Factor Authentication](../../user-guide/two-factor-authentication.md). | off |
 
 ## Theme
 
@@ -63,3 +64,20 @@ The issue and comment limits do not apply to Agents and Administrators. The allo
 ## Where are the email server settings?
 
 The mail server credentials and the sender address are not part of the system settings. They are configured in the `.env` file on the server. See [Installation](../../installation.md).
+
+## Two factor authentication: server configuration
+
+Two values in the `.env` file of the server belong to two factor authentication (see [Two Factor Authentication](../../user-guide/two-factor-authentication.md)):
+
+| Key | Description | Default |
+| --- | ----------- | ------- |
+| `TWOFA_ENCRYPTION_KEY` | The key that encrypts the secrets of the authenticator apps in the database. At least 32 random bytes, Base64 encoded. Create one with `node -e "console.log(require('crypto').randomBytes(32).toString('base64'))"`. Without a valid key nobody can set up or use 2FA. | none, set it before using 2FA |
+| `DISABLE_ADMIN_2FA` | Emergency only. If `true`, all administrator accounts can log in without a code, even if 2FA is mandatory or set up. Every such login is written to the error log. | `false` |
+
+{% hint style="danger" %}
+Never change or lose `TWOFA_ENCRYPTION_KEY` once users have set up 2FA. The stored secrets can no longer be read, and every user has to be reset by an administrator. Keep a backup of the key, separate from the database backup, and use a different key for every installation.
+{% endhint %}
+
+{% hint style="warning" %}
+`DISABLE_ADMIN_2FA=true` removes the second factor for all administrators. Use it only to get back in, for example when the only administrator lost the device, then reset the 2FA of that account and set the value back to `false`.
+{% endhint %}

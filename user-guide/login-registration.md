@@ -6,6 +6,8 @@
 
 Enter your username and password and click **Login**. Use _Logout_ in the user menu in the top bar when you are done.
 
+If you have set up two factor authentication, a second page asks for the 6-digit code of your authenticator app. If your administrator made it mandatory and you have not set it up yet, you are taken to the setup page. See [Two Factor Authentication](two-factor-authentication.md).
+
 If your session expires, LeweDesk takes you back to the login page.
 
 ## Registration

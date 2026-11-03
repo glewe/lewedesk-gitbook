@@ -3,8 +3,6 @@
 * [LeweDesk](README.md)
   * [License](lewedesk/license.md)
   * [Support](lewedesk/support.md)
-* [Installation](installation.md)
-* [Upgrading](upgrading.md)
 * [Quick Start Guide](quick-start-guide.md)
 * [Administration](administration/README.md)
   * [System](administration/system/README.md)

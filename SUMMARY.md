@@ -18,7 +18,6 @@
     * [Status](administration/issues/status.md)
     * [Status Categories](administration/issues/status-categories.md)
     * [Tags](administration/issues/tags.md)
-  * [Housekeeping](administration/housekeeping.md)
 * [User Guide](user-guide/README.md)
   * [Login and Registration](user-guide/login-registration.md)
   * [Dashboard](user-guide/dashboard.md)

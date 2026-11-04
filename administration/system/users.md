@@ -4,14 +4,19 @@
 
 The list shows username, name, email, roles, groups and the two factor authentication status (shield icon) of every account.
 
-Users create their own accounts on the registration page (see [Login and Registration](../../user-guide/login-registration.md)). Administrators then assign roles and groups here.
+Users create their own accounts on the registration page (see [Login and Registration](../../user-guide/login-registration.md)). Administrators then assign roles and groups here. Administrators can also create accounts with **Add**. When [LDAP authentication](ldap-authentication.md) is active, the registration is switched off and **Add** is the only way to create an account.
 
 ## Buttons
 
 | Button | Function                                                             |
 | ------ | -------------------------------------------------------------------- |
+| Add    | Opens the Add page to create a user                                  |
 | Edit   | Opens the Edit page for the selected user (or the pencil in the row) |
 | Delete | Deletes the selected users after a confirmation                      |
+
+## Add User
+
+Fill in username (3 to 50 characters: letters, digits, `_`, `.` and `-`; it cannot be changed later), email, names, roles and groups, and click **Save**. Without LDAP you also set the first password (at least 4 characters). With LDAP no password is asked: the user logs in with the LDAP password, and the username must be the one used in LDAP. The creation is recorded in the [Audit Log](audit-log.md) (`user.created`).
 
 ## Edit User
 
@@ -29,6 +34,8 @@ Users create their own accounts on the registration page (see [Login and Registr
 | Roles      | Roles assigned to the user. Hold Ctrl (Cmd) to select several.                                      |
 | Groups     | Groups the user belongs to. Hold Ctrl (Cmd) to select several.                                      |
 | Two factor authentication | Shows whether the user has set up 2FA. **Reset 2FA** switches it off (see below). |
+
+With [LDAP authentication](ldap-authentication.md) the password field is replaced with a note for every user except **admin**: the password is managed in LDAP and cannot be changed here. The user list shows an **LDAP** badge next to these users.
 
 ### Avatar tab
 

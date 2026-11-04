@@ -10,6 +10,10 @@ If you have set up two factor authentication, a second page asks for the 6-digit
 
 If your session expires, LeweDesk takes you back to the login page.
 
+<figure><img src="../.gitbook/assets/login-ldap.png" alt=""><figcaption></figcaption></figure>
+
+If the login page says _LDAP authentication active_, use your LDAP password (the one you use for your computer or other company systems). Your account must have been created by an administrator. The registration and the password reset are not available then. If the login says _Unknown LeweDesk user._, ask your administrator for an account. See [LDAP Authentication](../administration/system/ldap-authentication.md).
+
 ## Registration
 
 <figure><img src="../.gitbook/assets/user-add.png" alt=""><figcaption></figcaption></figure>

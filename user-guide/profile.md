@@ -19,6 +19,8 @@ Open your profile from the user menu in the top bar (click your avatar, then **P
 
 Click **Save**.
 
+If your administrator uses [LDAP authentication](../administration/system/ldap-authentication.md), your password is managed outside of LeweDesk. The password fields are then replaced with a note and cannot be used. Change your password where you changed it before.
+
 ## Avatar tab
 
 <figure><img src="../.gitbook/assets/profile-avatar.png" alt=""><figcaption></figcaption></figure>

@@ -45,7 +45,7 @@ After 5 wrong codes the login is blocked for 5 minutes. The page shows a countdo
 
 ## Disable 2FA
 
-Open the **2FA** tab in your [Profile](profile.md), click **Disable 2FA** and enter your password. If 2FA is mandatory, a note on the tab tells you that you will have to set it up again at your next login.
+Open the **2FA** tab in your [Profile](profile.md), click **Disable 2FA** and enter your password (with LDAP authentication your LDAP password). If 2FA is mandatory, a note on the tab tells you that you will have to set it up again at your next login.
 
 <figure><img src="../.gitbook/assets/profile-2fa-disable.png" alt="Disable 2FA dialog"><figcaption></figcaption></figure>
 

@@ -13,6 +13,8 @@ When LDAP is switched on:
 * The password of an LDAP user cannot be changed in LeweDesk: the password fields in the profile and on the user page are replaced with a note, and the password reset and the registration are switched off. Change the password where your LDAP is managed.
 * The login page shows _LDAP authentication active_, administrators see an **LDAP** badge in the top bar, and the user list marks every LDAP user with an **LDAP** badge.
 
+<figure><img src="../../.gitbook/assets/login-ldap.png" alt=""><figcaption>Login page with LDAP authentication active</figcaption></figure>
+
 The login is checked in these steps: LeweDesk connects to the server, optionally binds with a read-only account (the _search bind_), searches the user below the search base (`uid=<username>`, or `sAMAccountName=<username>` for Active Directory), and finally tries to bind as that user with the password entered. Only the result of this last step counts.
 
 ## Configuration

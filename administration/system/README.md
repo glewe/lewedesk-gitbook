@@ -9,6 +9,7 @@ The system pages manage who may use LeweDesk and how it behaves.
 | [Groups](groups.md)           | Collections of users that can be granted permissions together    |
 | [Permissions](permissions.md) | What a role or group may do                                      |
 | [Settings](settings.md)       | Application name, email, theme, issue limits and more            |
+| [Audit Log](audit-log.md)     | Who changed what, when and from where                            |
 
 ## How access works
 

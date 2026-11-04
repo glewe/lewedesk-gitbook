@@ -50,6 +50,7 @@ A permission allows one specific thing. Each permission is granted to roles and/
 | `manage_groups`            | Administrator | Manage groups                                |
 | `manage_permissions`       | Administrator | Manage permissions                           |
 | `manage_settings`          | Administrator | Change the system settings                   |
+| `view_audit_log`           | Administrator | Open and export the [Audit Log](audit-log.md). The Administrator role is required as well. |
 | `manage_issue_types`       | Administrator | Manage issue types                           |
 | `manage_status`            | Administrator | Manage status                                |
 | `manage_status_categories` | Administrator | Edit the status categories                   |

@@ -51,6 +51,7 @@ The page has four tabs. Click **Save** on a tab to store the changes. A setting 
 | Comments per Hour                | How many comments a user may add per hour. `0` switches the limit off.                                                                                       | 30      |
 | Notification Retention (Days)    | In-app notifications older than this are deleted                                                                                                             | 90      |
 | Notification Poll Interval (Seconds) | How often the browser checks for new notifications (10-3600)                                                                                              | 60      |
+| Audit Log Retention (Days)       | Entries of the [Audit Log](audit-log.md) older than this are deleted. `0` keeps them forever (0-3650). It is in the System tab, below Force Two Factor Authentication. | 365 |
 | Temporary Upload Cleanup (Hours) | Images uploaded while writing a new issue are deleted after this many hours if the issue was never saved                                                      | 24      |
 
 {% hint style="warning" %}
@@ -79,5 +80,5 @@ Never change or lose `TWOFA_ENCRYPTION_KEY` once users have set up 2FA. The stor
 {% endhint %}
 
 {% hint style="warning" %}
-`DISABLE_ADMIN_2FA=true` removes the second factor for all administrators. Use it only to get back in, for example when the only administrator lost the device, then reset the 2FA of that account and set the value back to `false`.
+`DISABLE_ADMIN_2FA=true` removes the second factor for all administrators. Use it only to get back in, for example when the only administrator lost the device, then reset the 2FA of that account and set the value back to `false`. Every login that uses the bypass is recorded in the [Audit Log](audit-log.md) (`auth.2fa_bypass`).
 {% endhint %}

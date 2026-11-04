@@ -51,6 +51,6 @@ Open the **2FA** tab in your [Profile](profile.md), click **Disable 2FA** and en
 
 ## Lost your device?
 
-Ask an administrator to reset your 2FA (see [Users](../administration/system/users.md)). You can then log in with your password. If 2FA is mandatory you set it up again with your new device.
+Ask an administrator to reset your 2FA (see [Users](../administration/system/users.md)). You can then log in with your password. If 2FA is mandatory you set it up again with your new device. Setting up, disabling and resetting 2FA is recorded in the [Audit Log](../administration/system/audit-log.md), which only administrators can see.
 
 <figure><img src="../.gitbook/assets/user-edit-2fa.png" alt="Reset 2FA on the user edit page"><figcaption></figcaption></figure>

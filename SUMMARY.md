@@ -6,6 +6,7 @@
 * [Quick Start Guide](quick-start-guide.md)
 * [Administration](administration/README.md)
   * [System](administration/system/README.md)
+    * [Audit Log](administration/system/audit-log.md)
     * [Groups](administration/system/groups.md)
     * [Permissions](administration/system/permissions.md)
     * [Roles](administration/system/roles.md)

@@ -14,6 +14,10 @@ If your session expires, LeweDesk takes you back to the login page.
 
 If the login page says _LDAP authentication active_, use your LDAP password (the one you use for your computer or other company systems). Your account must have been created by an administrator. The registration and the password reset are not available then. If the login says _Unknown LeweDesk user._, ask your administrator for an account. See [LDAP Authentication](../administration/system/ldap-authentication.md).
 
+If the login page has a **Login with SSO** button, click it and sign in at your company's identity provider. The username and password form below it, labeled _Administrator login_, is only for the administrator. Your account must have been created by an administrator with the same username as at the identity provider; otherwise you see _Unknown LeweDesk user._ The registration and the password reset are not available, and two factor authentication is handled by the identity provider. Logging out of LeweDesk does not end your session at the identity provider. See [OIDC Authentication](../administration/system/oidc-authentication.md).
+
+<figure><img src="../.gitbook/assets/login-sso.png" alt=""><figcaption>Login page with SSO</figcaption></figure>
+
 ## Registration
 
 <figure><img src="../.gitbook/assets/user-add.png" alt=""><figcaption></figcaption></figure>

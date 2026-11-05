@@ -21,6 +21,8 @@ Click **Save**.
 
 If your administrator uses [LDAP authentication](../administration/system/ldap-authentication.md), your password is managed outside of LeweDesk. The password fields are then replaced with a note and cannot be used. Change your password where you changed it before.
 
+The same applies if you sign in with SSO ([OIDC authentication](../administration/system/oidc-authentication.md)). The 2FA tab is not shown then, because two factor authentication is handled by your identity provider.
+
 ## Avatar tab
 
 <figure><img src="../.gitbook/assets/profile-avatar.png" alt=""><figcaption></figcaption></figure>

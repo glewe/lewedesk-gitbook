@@ -1,5 +1,9 @@
 # Two Factor Authentication
 
+{% hint style="info" %}
+Users who sign in with SSO ([OIDC authentication](../administration/system/oidc-authentication.md)) do not use the 2FA of LeweDesk, also if it is mandatory: the identity provider takes care of it. The administrator, who logs in locally, still does.
+{% endhint %}
+
 Two factor authentication (2FA) protects your account with a second step at login. After your password you enter a 6-digit code from an authenticator app on your mobile device, for example Google Authenticator or Microsoft Authenticator. Somebody who learns your password still cannot log in without your device.
 
 LeweDesk uses time based one-time passwords (TOTP, RFC 6238): the app and the server both calculate the code from a shared secret and the current time. The code changes every 30 seconds.

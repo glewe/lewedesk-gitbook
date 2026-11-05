@@ -9,6 +9,7 @@
     * [Audit Log](administration/system/audit-log.md)
     * [Groups](administration/system/groups.md)
     * [LDAP Authentication](administration/system/ldap-authentication.md)
+    * [OIDC Authentication](administration/system/oidc-authentication.md)
     * [Permissions](administration/system/permissions.md)
     * [Roles](administration/system/roles.md)
     * [Settings](administration/system/settings.md)

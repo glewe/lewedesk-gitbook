@@ -42,7 +42,7 @@ The page has four tabs. Click **Save** on a tab to store the changes. A setting 
 
 | Setting                          | Description                                                                                                                                                  | Default |
 | -------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------- |
-| Issue Key Prefix                 | Prefix of the issue key. Issues are displayed as `PREFIX-123`. 1-10 characters, A-Z and 0-9, starting with a letter.                                         | LETI    |
+| Issue Key Prefix                 | Prefix of the issue key. Issues are displayed as `PREFIX-123`. 1-10 characters, A-Z and 0-9, starting with a letter.                                         | LD    |
 | Support Email                    | Address of your support team. It gets a message when an issue is created.                                                                                    |         |
 | Maximum Attachment Size (MB)     | Maximum size of a single attachment or inline image (1-50)                                                                                                   | 2       |
 | Maximum Attachments per Issue    | Maximum number of attachments of an issue (1-100). Inline images count.                                                                                      | 10      |

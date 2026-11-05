@@ -16,7 +16,7 @@ Click **Create issue** in the sidebar, select a type, enter a summary and a desc
 
 <figure><img src=".gitbook/assets/issue-add.png" alt=""><figcaption></figcaption></figure>
 
-The issue gets a key such as `LETI-123`. You and the support team are notified. See [Create Issue](user-guide/issues/create-issue.md).
+The issue gets a key such as `LD-123`. You and the support team are notified. See [Create Issue](user-guide/issues/create-issue.md).
 
 ## 3. Follow your issue
 

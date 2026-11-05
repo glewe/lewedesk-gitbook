@@ -17,7 +17,7 @@ A resolution says why an issue is done. It is empty until the issue is resolved 
 | Not reproducible | The issue can't be reproduced                   |
 
 {% hint style="info" %}
-_Duplicate_ does not require a reference to another issue. Mention the original issue key (for example `LETI-12`) in a comment. It is linked automatically.
+_Duplicate_ does not require a reference to another issue. Mention the original issue key (for example `LD-12`) in a comment. It is linked automatically.
 {% endhint %}
 
 ## Buttons

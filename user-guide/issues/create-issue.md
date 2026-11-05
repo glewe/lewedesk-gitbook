@@ -17,7 +17,7 @@ Click **Create issue** in the sidebar. You need to be logged in.
 | Access      | Who may see this issue: _Public_, _Registered_ or _Reporter only_. The support team can always see it.                      |
 | Attachments | Files to attach (optional). See [Attachments](attachments.md).                                                              |
 
-Click **Create issue**. The issue gets its key (for example _Issue LETI-123 was created_).
+Click **Create issue**. The issue gets its key (for example _Issue LD-123 was created_).
 
 ## Writing the description
 

@@ -32,7 +32,7 @@ Click **Preview** to see the result, and **Write** to go back to editing.
 | `- item`                    | a bulleted list             |
 | `1. item`                   | a numbered list             |
 | `> quote`                   | a quote                     |
-| `LETI-123`                  | a link to that issue        |
+| `LD-123`                  | a link to that issue        |
 
 ## Images
 

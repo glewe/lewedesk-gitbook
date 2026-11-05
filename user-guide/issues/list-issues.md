@@ -9,7 +9,7 @@ The issue list shows the issues you may see. Click an issue key to open the issu
 | Column   | Description                                                      |
 | -------- | ---------------------------------------------------------------- |
 | (icon)   | Icon of the issue type                                           |
-| Issue    | The issue key, e.g. LETI-123                                     |
+| Issue    | The issue key, e.g. LD-123                                     |
 | Summary  | Title of the issue                                               |
 | Reporter | Who created the issue                                            |
 | Assignee | Who works on it, or _Unassigned_                                 |

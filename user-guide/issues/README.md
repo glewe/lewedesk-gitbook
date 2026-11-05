@@ -4,7 +4,7 @@ An issue is a report, a question or a request. LeweDesk calls what other systems
 
 ## Issue key
 
-Every issue has a key made of a prefix and a number, for example **LETI-123**. The numbering is global. The administrator sets the prefix (see [Settings](../../administration/system/settings.md)). When you write an issue key in a description or a comment, it is linked automatically (if the reader may see that issue).
+Every issue has a key made of a prefix and a number, for example **LD-123**. The numbering is global. The administrator sets the prefix (see [Settings](../../administration/system/settings.md)). When you write an issue key in a description or a comment, it is linked automatically (if the reader may see that issue).
 
 ## Properties
 

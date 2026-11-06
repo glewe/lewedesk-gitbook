@@ -1,6 +1,6 @@
 # License
 
-LeweDesk cannot be licensed yet.
+Every LeweDesk installation needs a license key. Administrators enter it on the License tab of the system settings. An installation without a license key runs as a trial for 7 days. See [License](../administration/system/license.md) in the administration guide.
 
 ## Third-party components
 

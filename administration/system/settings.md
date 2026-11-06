@@ -4,7 +4,7 @@
 
 The system settings are available to users with the permission `manage_settings`. Open them from the user menu in the top bar (_Settings_) or from **Administration** → **System** → **Settings**.
 
-The page has four tabs. Click **Save** on a tab to store the changes. A setting that was never saved shows its default value.
+The page has five tabs. Click **Save Settings** to store the changes. A setting that was never saved shows its default value.
 
 ## General
 
@@ -61,6 +61,14 @@ The **Issue Key Prefix** cannot be changed anymore once the first issue exists. 
 {% hint style="info" %}
 The issue and comment limits do not apply to Agents and Administrators. The allowed attachment file types are fixed: pdf, txt, md, zip, jpg, gif and png. The PHP settings `upload_max_filesize` and `post_max_size` of your web server must allow the size you configure.
 {% endhint %}
+
+## License
+
+The License tab shows the license of the installation and has the license key, the buttons to activate the license and to deregister the domain, and one setting. The key and the buttons work at once; they are not stored with **Save Settings**. Everything about it is described on the page [License](license.md).
+
+| Setting                | Description                                                                                                                     | Default |
+| ---------------------- | ------------------------------------------------------------------------------------------------------------------------------- | ------- |
+| Expiry Warning (Days)  | Administrators see a banner on every page when the license expires within this many days (0-365). `0` switches the warning off. | 30      |
 
 ## Where are the email server settings?
 

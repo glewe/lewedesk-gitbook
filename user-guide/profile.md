@@ -46,4 +46,5 @@ Set up two factor authentication with an authenticator app, or disable it again 
 
 | Option                         | Description                                                                   |
 | ------------------------------ | ----------------------------------------------------------------------------- |
+| Language                       | The language of the interface (English, German, French, Spanish) or the system default. Saved in your profile, so it applies on every browser you log in with |
 | Show status background color   | Colors the row background of issue tables according to the issue's status     |

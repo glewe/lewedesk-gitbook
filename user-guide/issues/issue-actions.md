@@ -35,6 +35,10 @@ Enter a comment (mandatory) and click **Respond**. The comment is added to the i
 
 Agents can tick **Internal comment**. An internal comment is only visible to the support team and does not change the status.
 
+{% hint style="info" %}
+The comment form at the bottom of the issue has a **Respond with comment** button that does the same without opening a dialog. See [Comments](comments.md).
+{% endhint %}
+
 ## Resolve
 
 <figure><img src="../../.gitbook/assets/action-resolve.png" alt=""><figcaption></figcaption></figure>

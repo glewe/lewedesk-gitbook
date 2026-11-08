@@ -20,7 +20,7 @@ The issue gets a key such as `LD-123`. You and the support team are notified. Se
 
 ## 3. Follow your issue
 
-Open **My issues** in the sidebar to see the issues you reported. Open an issue to read comments and see its status. You can answer with **Actions** → **Respond** or by adding a comment.
+Open **My issues** in the sidebar to see the issues you reported. Open an issue to read comments and see its status. You can answer with **Respond with comment** below the comment field, with **Actions** → **Respond**, or just add a comment with **Add comment**.
 
 <figure><img src=".gitbook/assets/issues-list.png" alt=""><figcaption></figcaption></figure>
 
@@ -30,7 +30,7 @@ Agents see all issues. A typical flow looks like this:
 
 1. Open **Unassigned** in the sidebar and open an issue
 2. Click **Actions** → **Assign to me**
-3. Click **Actions** → **Respond** to ask a question or answer. The status changes to _Waiting for customer_.
+3. Click **Respond with comment** below the comment field (or **Actions** → **Respond**) to ask a question or answer. The status changes to _Waiting for customer_.
 4. When the problem is solved, click **Actions** → **Resolve** and select a resolution. The status changes to _Resolved_.
 5. The reporter (or you) closes the issue with **Actions** → **Close**
 

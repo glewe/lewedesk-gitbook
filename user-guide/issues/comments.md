@@ -6,9 +6,23 @@ Comments are the conversation about an issue.
 
 ## Adding a comment
 
-Scroll to **Add a comment** at the bottom of the issue, write your text and click **Add comment**. Comments support [Markdown](../markdown.md). You can paste or drag images into the text (see [Attachments](attachments.md)).
+Scroll to **Add a comment** at the bottom of the issue and write your text. Comments support [Markdown](../markdown.md). You can paste or drag images into the text (see [Attachments](attachments.md)). Below the text field there are up to two buttons:
 
-Alternatively use **Actions** → **Respond**, which also updates the status (see [Issue Actions](issue-actions.md)).
+| Button                   | Effect                                                                                      |
+| ------------------------ | ------------------------------------------------------------------------------------------- |
+| **Add comment**          | Adds the comment. The status of the issue does not change.                                  |
+| **Respond with comment** | Adds the comment and changes the status to show who is expected to answer next (see below). |
+
+### Respond with comment
+
+**Respond with comment** is only shown when it makes sense:
+
+* The reporter sees it when the issue is _Waiting for customer_. Responding sets the status to _Waiting for agent_.
+* Agents and Administrators see it when the issue is _Waiting for agent_. Responding sets the status to _Waiting for customer_.
+
+It is hidden while **Internal comment** is ticked, because an internal comment never changes the status.
+
+It does the same as **Actions** → **Respond** (see [Issue Actions](issue-actions.md)), without opening a dialog.
 
 Who may comment:
 

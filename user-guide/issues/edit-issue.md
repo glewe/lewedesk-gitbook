@@ -22,5 +22,5 @@ The Edit page is for the support team (permission `edit_issue`). Open it with **
 Click **Save changes**. If nothing was changed, LeweDesk tells you so. Every change is recorded in the [History](history.md).
 
 {% hint style="info" %}
-Changing the status here bypasses the normal flow of the [Issue Actions](issue-actions.md). When the status leaves the category _Done_, the resolution is cleared (except when moving from _Resolved_ to _Closed_).
+Changing the status here bypasses the normal flow of the [Issue Actions](issue-actions.md). You can also change the status directly in the [properties](issue-detail.md#change-the-status) of the issue. When the status leaves the category _Done_, the resolution is cleared (except when moving from _Resolved_ to _Closed_).
 {% endhint %}

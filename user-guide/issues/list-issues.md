@@ -8,6 +8,7 @@ The issue list shows the issues you may see. Click an issue key to open the issu
 
 | Column   | Description                                                      |
 | -------- | ---------------------------------------------------------------- |
+| (checkbox) | Selects the issue for [bulk actions](#delete-or-restore-several-issues) (only for users who may delete issues) |
 | (icon)   | Icon of the issue type                                           |
 | Issue    | The issue key, e.g. LD-123                                     |
 | Summary  | Title of the issue                                               |
@@ -39,7 +40,21 @@ The sidebar offers quick views. The number shows how many issues the view holds.
 
 ## Filters
 
-Above the table you can narrow the list down by **Status**, **Type**, **Product**, **Assignee**, **Reporter** and **Tags**. Filters combine with the quick view. Click **Reset filters** to remove them. **Show entries** sets the page size.
+Above the table you can narrow the list down by **Status**, **Status category**, **Type**, **Product**, **Assignee**, **Reporter** and **Tags**. Filters combine with the quick view. **Show entries** sets the page size.
+
+The **Hide closed** switch is on by default and leaves out the issues with the status _Closed_, so that the list shows what still needs attention. Turn it off to see them as well. It has no effect when you choose a status in the **Status** filter.
+
+Click **Reset filters** to remove all filters. This also turns **Hide closed** on again.
+
+## Delete or restore several issues
+
+Users who may delete issues (Agents and Administrators) see a checkbox in front of every row. Tick the issues you want to change, or tick the box in the table header to select all issues of the page. Then click **Delete** above the table and confirm.
+
+<figure><img src="../../.gitbook/assets/issues-bulk.png" alt=""><figcaption></figcaption></figure>
+
+The issues are moved to the _Deleted_ quick view. Deleting works one issue at a time in the background, so the same rules apply as for [Delete issue](issue-actions.md) on a single issue, and each issue gets its entry in the history. A message tells you how many issues were deleted and how many could not be changed.
+
+In the _Deleted_ quick view the **Delete** button is replaced by **Restore**. Select the issues and click **Restore** to bring them back.
 
 ## Search
 

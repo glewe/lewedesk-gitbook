@@ -16,6 +16,7 @@
     * [Settings](administration/system/settings.md)
     * [Users](administration/system/users.md)
   * [Issues](administration/issues/README.md)
+    * [Custom Views](administration/issues/custom-views.md)
     * [Issue Types](administration/issues/issue-types.md)
     * [Products](administration/issues/products.md)
     * [Resolutions](administration/issues/resolutions.md)

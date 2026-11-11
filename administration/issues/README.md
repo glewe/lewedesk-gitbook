@@ -4,6 +4,7 @@ These pages maintain the lists that structure your issues.
 
 | Page                                    | Used for                                                                    |
 | --------------------------------------- | --------------------------------------------------------------------------- |
+| [Custom Views](custom-views.md)         | Saved filter combinations of the issue list of all users                    |
 | [Issue Types](issue-types.md)           | What kind of issue it is (Bug, Feature, Question, ...)                      |
 | [Products](products.md)                 | The product an issue is about                                               |
 | [Status](status.md)                     | Where an issue is in its life                                               |

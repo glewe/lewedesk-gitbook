@@ -46,6 +46,37 @@ The **Hide closed** switch is on by default and leaves out the issues with the s
 
 Click **Reset filters** to remove all filters. This also turns **Hide closed** on again.
 
+## Custom views
+
+Logged in users can save a combination of filters as a **custom view** and use it again later. Visitors who are not logged in do not see the buttons described here.
+
+Under the filters you find the **Save view** button and the **Select view** list.
+
+<figure><img src="../../.gitbook/assets/issues-custom-views.png" alt=""><figcaption></figcaption></figure>
+
+### Save a view
+
+1. Set the filters you want (**Status**, **Status category**, **Type**, **Product**, **Assignee**, **Reporter**, **Tags**).
+2. Click **Save view**.
+3. Enter a **Name** (up to 100 characters). Switch on **Share with all registered users** if other users should be able to use the view as well. A view is private by default.
+4. Click **Save**.
+
+<figure><img src="../../.gitbook/assets/custom-view-save.png" alt=""><figcaption></figcaption></figure>
+
+A view stores these seven filters only. The quick view, the search term, the sort order and the page size are not part of it. You may save a view without any filter. It then shows all issues.
+
+If you already have a view with the same name (upper and lower case do not matter), LeweDesk asks whether you want to **overwrite** it with the current filters.
+
+### Use a view
+
+Choose a view in **Select view**. Your own views are listed first, sorted by name, then a separator and the views other users have shared with you. A shared view shows the name of its owner, for example _Unassigned (Athene Wisdom)_.
+
+The filters are replaced by the filters of the view and the list is reloaded. The address of the page contains the view (`customview=...`), so you can bookmark it. As soon as you change a filter or click **Reset filters**, the list no longer shows the view and **Select view** is reset.
+
+If a view contains a filter value that does not exist anymore (for example a tag that was deleted), the value is ignored. The owner of the view gets a message and can repair the view in the [profile](../profile.md#custom-views-tab).
+
+Only the owner can change or delete a view. Shared views of other users can be used, not changed.
+
 ## Delete or restore several issues
 
 Users who may delete issues (Agents and Administrators) see a checkbox in front of every row. Tick the issues you want to change, or tick the box in the table header to select all issues of the page. Then click **Delete** above the table and confirm.

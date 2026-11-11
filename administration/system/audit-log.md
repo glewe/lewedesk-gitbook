@@ -59,7 +59,7 @@ Every export is itself recorded in the log (`audit.exported`, with the format, t
 | Authentication | Login, logout, failed login (existing account, wrong password), password change, password reset requested and completed, 2FA enabled, disabled, reset by an administrator, wrong 2FA code, 2FA lock, 2FA bypass (`DISABLE_ADMIN_2FA`), login refused because the license expired |
 | Users          | Account registered, account changed (email, names), roles changed, groups changed, account deleted                                                                                  |
 | Configuration  | Every changed system setting (one entry per setting); license key saved, license activated, domain deregistered, change of the license state, license server unreachable (see [License](license.md)); roles, groups, permissions, issue types, status, status categories, resolutions, products and tags created, changed and deleted |
-| Data           | Issue deleted, issue restored, attachment deleted                                                                                                                                   |
+| Data           | Issue deleted, issue restored, attachment deleted, custom view created, changed and deleted (also when its private views are removed with a deleted user) |
 | Security       | A request that was denied for lack of permission (403), an invalid or expired 2FA login token                                                                                       |
 | Audit log      | An export of the log                                                                                                                                                                |
 

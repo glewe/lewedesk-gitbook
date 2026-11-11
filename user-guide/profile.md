@@ -36,6 +36,21 @@ Your avatar is shown in the top bar and next to your name on issues.
 
 Choose per event whether you get an email and/or an in-app notification. See [Notifications](notifications.md).
 
+## Custom Views tab
+
+<figure><img src="../.gitbook/assets/profile-custom-views.png" alt=""><figcaption></figcaption></figure>
+
+Lists the [custom views](issues/list-issues.md#custom-views) you saved in the issue list with their name, whether they are _Private_ or _Shared_, and the time of the last change.
+
+| Button | Function                                                                                              |
+| ------ | ----------------------------------------------------------------------------------------------------- |
+| Edit   | Opens a dialog with the name, the **Share with all registered users** switch and the seven filters     |
+| Delete | Deletes the view after a confirmation. It disappears for all users it was shared with.                |
+
+<figure><img src="../.gitbook/assets/custom-view-edit.png" alt=""><figcaption></figcaption></figure>
+
+If filter values of the view do not exist anymore, the edit dialog tells you and leaves them out. Click **Save** to update the view.
+
 ## 2FA tab
 
 Set up two factor authentication with an authenticator app, or disable it again (this needs your password). See [Two Factor Authentication](two-factor-authentication.md).

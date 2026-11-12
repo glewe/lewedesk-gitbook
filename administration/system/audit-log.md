@@ -4,7 +4,7 @@
 
 The audit log records who did what, when and from where: logins, changes to accounts and configuration, and security-relevant events. Use it to trace a change back to the person who made it, or to investigate failed logins and denied access.
 
-Open it with **Administration > System > Audit Log**. The page is available to administrators only and, like the log itself, is in English.
+Open it with **Administration > System > Audit Log**. The page is available to administrators only and, like the log itself, is in English. In the [limited mode of the license](license.md) the page cannot be opened; entries are still written.
 
 {% hint style="info" %}
 The audit log is for the administration of the system. The day-to-day activity of an issue (creating, commenting, changing the status) is not part of it: it stays in the [History](../../user-guide/issues/history.md) of the issue.
@@ -56,7 +56,7 @@ Every export is itself recorded in the log (`audit.exported`, with the format, t
 
 | Category       | Events                                                                                                                                                                             |
 | -------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Authentication | Login, logout, failed login (existing account, wrong password), password change, password reset requested and completed, 2FA enabled, disabled, reset by an administrator, wrong 2FA code, 2FA lock, 2FA bypass (`DISABLE_ADMIN_2FA`), login refused because the license expired |
+| Authentication | Login, logout, failed login (existing account, wrong password), password change, password reset requested and completed, 2FA enabled, disabled, reset by an administrator, wrong 2FA code, 2FA lock, 2FA bypass (`DISABLE_ADMIN_2FA`), login refused because the license expired (only with `LICENSE_LOCK=1`) |
 | Users          | Account registered, account changed (email, names), roles changed, groups changed, account deleted                                                                                  |
 | Configuration  | Every changed system setting (one entry per setting); license key saved, license activated, domain deregistered, change of the license state, license server unreachable (see [License](license.md)); roles, groups, permissions, issue types, status, status categories, resolutions, products and tags created, changed and deleted |
 | Data           | Issue deleted, issue restored, attachment deleted, custom view created, changed and deleted (also when its private views are removed with a deleted user) |

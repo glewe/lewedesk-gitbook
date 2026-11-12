@@ -10,9 +10,9 @@ If you have set up two factor authentication, a second page asks for the 6-digit
 
 If your session expires, LeweDesk takes you back to the login page.
 
-If the login page says that the license has expired, only administrators can log in until the license is renewed. Ask your administrator. Users who are already logged in can keep working. See [License](../administration/system/license.md).
+If the installation has no valid license, **Sign up** shows the message _This feature is currently disabled due to an invalid license._ Ask your administrator for an account. (If the administrator has locked the application, the login page may also say that only administrators can log in until the license is renewed.) See [License](../administration/system/license.md).
 
-While an installation is still unlicensed, a banner at the top of every page tells how many days of the trial period are left.
+
 
 <figure><img src="../.gitbook/assets/login-ldap.png" alt=""><figcaption></figcaption></figure>
 

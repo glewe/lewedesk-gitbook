@@ -1,6 +1,6 @@
 # License
 
-Every LeweDesk installation needs a license key. Administrators enter it on the License tab of the system settings. An installation without a license key runs as a trial for 7 days. See [License](../administration/system/license.md) in the administration guide.
+Every LeweDesk installation needs a license key. Administrators enter it on the License tab of the system settings. An installation without a license key runs as a trial for 14 days. Without a valid license LeweDesk runs with limits after a grace period of 14 days. See [License](../administration/system/license.md) in the administration guide.
 
 ## Third-party components
 

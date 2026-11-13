@@ -19,6 +19,6 @@ Click the sort icon to switch between newest first and oldest first.
 ## What is recorded
 
 * creating, deleting and restoring the issue
-* changes to type, status, resolution, assignee, access, summary, description, product, version and tags
+* changes to type, priority, status, resolution, assignee, access, summary, description, product, version and tags
 * comments added, edited and deleted (internal comments are only visible to the support team)
 * attachments added and deleted

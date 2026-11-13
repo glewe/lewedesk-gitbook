@@ -9,6 +9,7 @@ The Edit page is for the support team (permission `edit_issue`). Open it with **
 | Field       | Description                                                                                   |
 | ----------- | --------------------------------------------------------------------------------------------- |
 | Type        | Kind of issue                                                                                 |
+| Priority    | How urgent the issue is. Required.                                                            |
 | Status      | The status can be set freely. A status of the category _Done_ needs a resolution.             |
 | Resolution  | Why the issue is done. Required for a status of the category _Done_.                          |
 | Assignee    | Only users with the role _Agent_ can be assigned                                              |

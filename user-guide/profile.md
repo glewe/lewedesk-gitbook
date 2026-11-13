@@ -44,7 +44,7 @@ Lists the [custom views](issues/list-issues.md#custom-views) you saved in the is
 
 | Button | Function                                                                                              |
 | ------ | ----------------------------------------------------------------------------------------------------- |
-| Edit   | Opens a dialog with the name, the **Share with all registered users** switch and the seven filters     |
+| Edit   | Opens a dialog with the name, the **Share with all registered users** switch and the eight filters     |
 | Delete | Deletes the view after a confirmation. It disappears for all users it was shared with.                |
 
 <figure><img src="../.gitbook/assets/custom-view-edit.png" alt=""><figcaption></figcaption></figure>

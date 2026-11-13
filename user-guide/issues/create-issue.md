@@ -9,6 +9,7 @@ Click **Create issue** in the sidebar. You need to be logged in.
 | Field       | Description                                                                                                                 |
 | ----------- | --------------------------------------------------------------------------------------------------------------------------- |
 | Type        | What kind of issue is it? Required.                                                                                         |
+| Priority    | How urgent is it? _Normal_ is preselected. The choices are _Critical_, _High_, _Normal_ and _Low_ (and any priorities your administrator added). |
 | Summary     | A short title in one line (up to 200 characters). Required.                                                                 |
 | Description | Describe the issue as precisely as you can: what happened, what did you expect, and how can we reproduce it? Required. Supports [Markdown](../markdown.md) and pasted images. |
 | Tags        | Optional. Type to search the existing tags. A tag that does not exist yet is created after you confirm.                    |

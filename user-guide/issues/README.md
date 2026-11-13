@@ -11,6 +11,7 @@ Every issue has a key made of a prefix and a number, for example **LD-123**. The
 | Property    | Description                                                                                                 |
 | ----------- | ----------------------------------------------------------------------------------------------------------- |
 | Type        | Kind of issue, e.g. Bug or Question                                                                         |
+| Priority    | How urgent the issue is: Critical, High, Normal (default) or Low                                            |
 | Status      | Where the issue is in its life, e.g. Open or Resolved                                                       |
 | Resolution  | Why the issue is done. Empty until the issue is resolved.                                                   |
 | Summary     | One-line title                                                                                              |

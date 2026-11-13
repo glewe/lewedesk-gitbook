@@ -55,6 +55,7 @@ A permission allows one specific thing. Each permission is granted to roles and/
 | `manage_status`            | Administrator | Manage status                                |
 | `manage_status_categories` | Administrator | Edit the status categories                   |
 | `manage_resolutions`       | Administrator | Manage resolutions                           |
+| `manage_priorities`        | Administrator | Manage priorities                            |
 | `manage_products`          | Administrator | Manage products                              |
 | `manage_tags`              | Administrator | Edit and delete tags                         |
 | `manage_custom_views`      | Administrator | Open the [Custom Views](../issues/custom-views.md) page and edit or delete the custom views of all users. Users manage their own views without a permission. |

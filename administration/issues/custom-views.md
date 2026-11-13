@@ -17,7 +17,7 @@ Custom views are saved filter combinations of the issue list (see [List Issues](
 
 | Button | Function                                                                                                  |
 | ------ | --------------------------------------------------------------------------------------------------------- |
-| Edit   | Opens the dialog with the name, the visibility and the seven filters. The owner of the view does not change. |
+| Edit   | Opens the dialog with the name, the visibility and the eight filters. The owner of the view does not change. |
 | Delete | Deletes the view after a confirmation                                                                     |
 
 If a filter value of the view does not exist anymore, the dialog leaves it out. The view is repaired when you click **Save**. Note that the assignee and reporter lists only contain users of issues you may see.

@@ -28,7 +28,7 @@ A collapsible table of all changes. See [History](history.md).
 
 ## Properties
 
-The panel on the right shows type, status, resolution, product, version, access, reporter, assignee, tags, watchers, and the dates created and updated. The product is shown with its icon in the color of the product.
+The panel on the right shows type, priority, status, resolution, product, version, access, reporter, assignee, tags, watchers, and the dates created and updated. The product is shown with its icon in the color of the product.
 
 <figure><img src="../../.gitbook/assets/issue-properties.png" alt=""><figcaption></figcaption></figure>
 

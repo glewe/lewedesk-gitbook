@@ -10,6 +10,7 @@ The issue list shows the issues you may see. Click an issue key to open the issu
 | -------- | ---------------------------------------------------------------- |
 | (checkbox) | Selects the issue for [bulk actions](#delete-or-restore-several-issues) (only for users who may delete issues) |
 | (icon)   | Icon of the issue type                                           |
+| (icon)   | Priority of the issue as a colored icon. Move the mouse over it to see the name. Click the column header to sort by priority (Critical first). |
 | Issue    | The issue key, e.g. LD-123                                     |
 | Summary  | Title of the issue                                               |
 | Reporter | Who created the issue                                            |
@@ -40,7 +41,7 @@ The sidebar offers quick views. The number shows how many issues the view holds.
 
 ## Filters
 
-Above the table you can narrow the list down by **Status**, **Status category**, **Type**, **Product**, **Assignee**, **Reporter** and **Tags**. Filters combine with the quick view. **Show entries** sets the page size.
+Above the table you can narrow the list down by **Status**, **Status category**, **Type**, **Priority**, **Product**, **Assignee**, **Reporter** and **Tags**. Filters combine with the quick view. **Show entries** sets the page size.
 
 The **Hide closed** switch is on by default and leaves out the issues with the status _Closed_, so that the list shows what still needs attention. Turn it off to see them as well. It has no effect when you choose a status in the **Status** filter.
 
@@ -56,14 +57,14 @@ Under the filters you find the **Save view** button and the **Select view** list
 
 ### Save a view
 
-1. Set the filters you want (**Status**, **Status category**, **Type**, **Product**, **Assignee**, **Reporter**, **Tags**).
+1. Set the filters you want (**Status**, **Status category**, **Type**, **Priority**, **Product**, **Assignee**, **Reporter**, **Tags**).
 2. Click **Save view**.
 3. Enter a **Name** (up to 100 characters). Switch on **Share with all registered users** if other users should be able to use the view as well. A view is private by default.
 4. Click **Save**.
 
 <figure><img src="../../.gitbook/assets/custom-view-save.png" alt=""><figcaption></figcaption></figure>
 
-A view stores these seven filters only. The quick view, the search term, the sort order and the page size are not part of it. You may save a view without any filter. It then shows all issues.
+A view stores these eight filters only. The quick view, the search term, the sort order and the page size are not part of it. You may save a view without any filter. It then shows all issues.
 
 If you already have a view with the same name (upper and lower case do not matter), LeweDesk asks whether you want to **overwrite** it with the current filters.
 

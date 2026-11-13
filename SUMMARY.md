@@ -19,6 +19,7 @@
   * [Issues](administration/issues/README.md)
     * [Custom Views](administration/issues/custom-views.md)
     * [Issue Types](administration/issues/issue-types.md)
+    * [Priorities](administration/issues/priorities.md)
     * [Products](administration/issues/products.md)
     * [Resolutions](administration/issues/resolutions.md)
     * [Status](administration/issues/status.md)

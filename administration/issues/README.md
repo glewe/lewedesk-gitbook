@@ -8,6 +8,8 @@ These pages maintain the lists that structure your issues.
 | [Issue Types](issue-types.md)           | What kind of issue it is (Bug, Feature, Question, ...)                      |
 | [Priorities](priorities.md)             | How urgent an issue is (Critical, High, Normal, Low)                        |
 | [Products](products.md)                 | The product an issue is about                                               |
+| [SLA Policies](sla-policies.md)         | Response and resolution targets, and which issues they apply to              |
+| [SLA Calendars](sla-calendars.md)       | Opening hours and holidays in which the SLA clock runs                      |
 | [Status](status.md)                     | Where an issue is in its life                                               |
 | [Status Categories](status-categories.md) | Groups of status that drive the quick views                               |
 | [Resolutions](resolutions.md)           | Why an issue is done                                                        |

@@ -26,6 +26,10 @@ The conversation about the issue, and the form to add a comment. See [Comments](
 
 A collapsible table of all changes. See [History](history.md).
 
+## Service level (SLA)
+
+For the support team, the panel **Service level (SLA)** shows the due time, the remaining time and the state of the first response and the resolution. See [SLA](sla.md).
+
 ## Properties
 
 The panel on the right shows type, priority, status, resolution, product, version, access, reporter, assignee, tags, watchers, and the dates created and updated. The product is shown with its icon in the color of the product.

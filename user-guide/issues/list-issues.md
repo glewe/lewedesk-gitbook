@@ -18,6 +18,7 @@ The issue list shows the issues you may see. Click an issue key to open the issu
 | Created  | Date and time of creation                                        |
 | Updated  | Date and time of the last change. The list is sorted by this column, newest first. |
 | Status   | Current status                                                   |
+| SLA      | The most urgent SLA timer of the issue (support team only, see [SLA](sla.md#sla-in-the-issue-list)) |
 
 Click a column header to sort. Each row gets the background color of the issue's status. You can turn this off in your [profile](../profile.md) (_Options_).
 
@@ -35,13 +36,14 @@ The sidebar offers quick views. The number shows how many issues the view holds.
 | Waiting        | Issues of the status category _Waiting_                     |
 | In progress    | Issues of the status category _In progress_                 |
 | Done           | Issues of the status category _Done_                        |
+| SLA breached   | Issues with a breached SLA timer (users with `view_sla`, while the license includes SLA) |
 | Deleted        | Deleted issues (only for users who may delete issues)       |
 
 <figure><img src="../../.gitbook/assets/issues-deleted.png" alt=""><figcaption></figcaption></figure>
 
 ## Filters
 
-Above the table you can narrow the list down by **Status**, **Status category**, **Type**, **Priority**, **Product**, **Assignee**, **Reporter** and **Tags**. Filters combine with the quick view. **Show entries** sets the page size.
+Above the table you can narrow the list down by **Status**, **Status category**, **Type**, **Priority**, **Product**, **Assignee**, **Reporter** and **Tags**. The support team also has the filter **SLA** (breached, at risk, due today, on track, paused). Filters combine with the quick view. **Show entries** sets the page size.
 
 The **Hide closed** switch is on by default and leaves out the issues with the status _Closed_, so that the list shows what still needs attention. Turn it off to see them as well. It has no effect when you choose a status in the **Status** filter.
 

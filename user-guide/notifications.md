@@ -16,11 +16,14 @@ The bell in the top bar shows a badge with the number of unread notifications. C
 | Issue assigned | Reporter, assignee, watchers              | The issue was assigned to someone                 |
 | Status changed | Reporter, assignee, watchers              | The status of the issue changed                   |
 | Comment added  | Reporter, assignee, watchers              | A comment was added                               |
+| SLA at risk    | Assignee, watchers (support team only)    | An SLA target is close to its due time            |
+| SLA breached   | Assignee, watchers, escalation user and group of the policy (support team only) | An SLA target was missed |
 
 Rules:
 
 * One action sends one combined message. _Resolve_, for example, is a comment, a status change and a resolution in one notification.
 * Only users who may see the issue are notified. Internal comments only notify the support team.
+* The two SLA events are sent once per timer and only to people who hold the permission `view_sla`. They can be up to five minutes late. See [SLA](issues/sla.md#notifications).
 * Emails are sent in the language the administrator set as default.
 
 ## Your notification settings

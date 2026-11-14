@@ -13,6 +13,8 @@ The dashboard is the welcome page after login. It only shows issues you are allo
 | Unassigned      | Open issues nobody works on yet                                      |
 | Resolved (7 days) | Issues resolved during the last seven days                         |
 
+The support team (permission `view_sla`) sees three more tiles when the license includes SLA: _SLA breached_, _SLA at risk_ and _SLA compliance_ of the last 30 days. See [SLA Report](sla-report.md#dashboard-tiles).
+
 ## Lists
 
 | List            | Shows                                                                                   |

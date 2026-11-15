@@ -44,7 +44,7 @@ The comment form at the bottom of the issue has a **Respond with comment** butto
 
 <figure><img src="../../.gitbook/assets/action-resolve.png" alt=""><figcaption></figcaption></figure>
 
-Select the resolution (mandatory) and optionally add a comment. The status changes to _Resolved_. The reporter is notified and can **Close** the issue to accept the solution or **Reopen** it.
+Select the resolution (mandatory), optionally the **fixed version** (the version of the product that contains the fix; the issue then appears in its [release notes](../release-notes.md)), and optionally add a comment. The field is only shown when the product has versions, and left empty it keeps the fixed version the issue has. The status changes to _Resolved_. The reporter is notified and can **Close** the issue to accept the solution or **Reopen** it.
 
 ## Close
 

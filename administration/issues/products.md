@@ -47,7 +47,11 @@ A product that issues still use cannot simply disappear, because every issue nee
 
 ## Versions
 
+<figure><img src="../../.gitbook/assets/product-versions.png" alt=""><figcaption></figcaption></figure>
+
 The **Versions** tab of a product lists its versions, the newest first (natural order: _1.10_ comes after _1.9_). Click **Add version** or the edit icon of a version. Requires the permission `manage_products` to change, and `view_issue` to read.
+
+<figure><img src="../../.gitbook/assets/product-version-edit.png" alt=""><figcaption></figcaption></figure>
 
 | Field        | Description                                                                                          |
 | ------------ | ---------------------------------------------------------------------------------------------------- |

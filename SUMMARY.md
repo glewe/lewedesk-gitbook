@@ -43,6 +43,7 @@
     * [History](user-guide/issues/history.md)
     * [SLA](user-guide/issues/sla.md)
   * [SLA Report](user-guide/sla-report.md)
+  * [Release Notes](user-guide/release-notes.md)
   * [Markdown](user-guide/markdown.md)
   * [Notifications](user-guide/notifications.md)
   * [Profile](user-guide/profile.md)

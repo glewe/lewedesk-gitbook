@@ -42,7 +42,7 @@ The page has five tabs. Click **Save Settings** to store the changes. A setting 
 
 | Setting                          | Description                                                                                                                                                  | Default |
 | -------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------- |
-| Issue Key Prefix                 | Prefix of the issue key. Issues are displayed as `PREFIX-123`. 1-10 characters, A-Z and 0-9, starting with a letter.                                         | LD    |
+| Default Product | The product of new issues that name none, for example the issues made from mails. The key of the product is the prefix of the issue keys (see [Products](../issues/products.md)). It is in the Issue Config tab. | General (`GEN`) |
 | Support Email                    | Address of your support team. It gets a message when an issue is created.                                                                                    |         |
 | Maximum Attachment Size (MB)     | Maximum size of a single attachment or inline image (1-50)                                                                                                   | 2       |
 | Maximum Attachments per Issue    | Maximum number of attachments of an issue (1-100). Inline images count.                                                                                      | 10      |
@@ -55,7 +55,7 @@ The page has five tabs. Click **Save Settings** to store the changes. A setting 
 | Temporary Upload Cleanup (Hours) | Images uploaded while writing a new issue are deleted after this many hours if the issue was never saved                                                      | 24      |
 
 {% hint style="warning" %}
-The **Issue Key Prefix** cannot be changed anymore once the first issue exists. Set it before you start.
+The issue key prefix is no longer a setting. Every product has its own key, for example `LD` for LeweDesk. See [Products](../issues/products.md).
 {% endhint %}
 
 {% hint style="info" %}

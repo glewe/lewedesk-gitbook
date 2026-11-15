@@ -4,7 +4,11 @@ An issue is a report, a question or a request. LeweDesk calls what other systems
 
 ## Issue key
 
-Every issue has a key made of a prefix and a number, for example **LD-123**. The numbering is global. The administrator sets the prefix (see [Settings](../../administration/system/settings.md)). When you write an issue key in a description or a comment, it is linked automatically (if the reader may see that issue).
+Every issue has a key made of the key of its product and a number, for example **LD-123**. Every product has its own key and counts its own numbers: the first issue of a product with the key _WEB_ is **WEB-1**. The administrator sets the keys (see [Products](../../administration/issues/products.md)).
+
+The key changes when an issue is [moved](issue-actions.md#move) to another product, but the old key keeps working: links, bookmarks and mails with the old key still lead to the issue. Old links of the form `issue.html?id=12` are read as _LD-12_.
+
+When you write an issue key in a description or a comment, it is linked automatically (if the reader may see that issue).
 
 ## Properties
 
@@ -16,8 +20,9 @@ Every issue has a key made of a prefix and a number, for example **LD-123**. The
 | Resolution  | Why the issue is done. Empty until the issue is resolved.                                                   |
 | Summary     | One-line title                                                                                              |
 | Description | Full description in [Markdown](../markdown.md)                                                              |
-| Product     | The product the issue is about (optional)                                                                   |
-| Version     | The product version (optional)                                                                              |
+| Product | The product the issue is about (required). Its key is the prefix of the issue key. |
+| Affected version | The version of the product the issue occurs in (optional) |
+| Fixed version | The version of the product that fixes the issue (optional). The issue is listed in the release notes of that version. |
 | Access      | Who may see the issue: Public, Registered or Reporter only                                                  |
 | Reporter    | The user who created the issue                                                                              |
 | Assignee    | The Agent who takes care of the issue                                                                       |

@@ -17,7 +17,8 @@ The **Actions** button on an issue opens a menu. It only lists the actions that 
 | Assign to me    | Agents                                                               | not yet assigned to you                 | Assigns the issue to you                                                                   |
 | Watch issue     | Logged in users                                                      | you do not watch it yet                 | You get notifications about the issue                                                      |
 | Unwatch issue   | Logged in users                                                      | you watch the issue                     | You stop getting notifications                                                             |
-| Change access   | Reporter, Agents, Administrators                                     | always                                  | Changes who may see the issue                                                              |
+| Change access   | Reporter, Agents, Administrators | always | Changes who may see the issue |
+| Move to another product | Agents, Administrators | always | Moves the issue to another product. The issue gets a new key. |
 | Delete issue    | Agents, Administrators                                               | always                                  | Hides the issue from everybody but the support team                                        |
 | Restore issue   | Agents, Administrators                                               | issue is deleted                        | Brings a deleted issue back                                                                |
 
@@ -67,6 +68,14 @@ Select who may see the issue. Watchers who lose access are removed.
 
 {% hint style="info" %}
 A reporter can only restrict the access of their issue (Public → Registered → Reporter only), not widen it again. Agents and Administrators can select any value.
+{% endhint %}
+
+## Move
+
+Select the new product (mandatory) and optionally add a comment. The issue gets the next number of that product, so its key changes (for example from _LD-12_ to _WEB-7_). The old key keeps working: links, bookmarks and mails with the old key still lead to the issue. The affected version and the fixed version are cleared, because versions belong to a product. The move is recorded in the [History](history.md).
+
+{% hint style="info" %}
+An old key leads to the issue as long as no product uses that key itself.
 {% endhint %}
 
 ## Delete and restore

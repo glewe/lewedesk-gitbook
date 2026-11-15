@@ -16,7 +16,7 @@ The mails about your issues carry the line
 
 > Please type your reply above this line
 
-Answer such a mail and write **above** the line. Your text becomes a comment on the issue; the quoted history of the mail and your signature are cut off. You can also write a new mail with the key of the issue (for example _LD-123_) in the subject.
+Answer such a mail and write **above** the line. Your text becomes a comment on the issue; the quoted history of the mail and your signature are cut off. You can also write a new mail with the key of the issue (for example _LD-123_) in the subject. Old keys of moved issues work as well. A new mail that does not belong to an issue becomes an issue of the default product, unless the administrator chose another product for mails.
 
 * Comments by mail are always public to everybody who can see the issue; there are no internal comments by mail.
 * An answer does not change the status of the issue.

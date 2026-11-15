@@ -32,7 +32,7 @@ For the support team, the panel **Service level (SLA)** shows the due time, the 
 
 ## Properties
 
-The panel on the right shows type, priority, status, resolution, product, version, access, reporter, assignee, tags, watchers, and the dates created and updated. The product is shown with its icon in the color of the product.
+The panel on the right shows type, priority, status, resolution, product, affected version, fixed version, access, reporter, assignee, tags, watchers, and the dates created and updated. The product is shown with its icon in the color of the product. A version is shown with its status (planned, in development, released or archived). The fixed version is a link to the [release notes](../release-notes.md) of that version.
 
 <figure><img src="../../.gitbook/assets/issue-properties.png" alt=""><figcaption></figcaption></figure>
 

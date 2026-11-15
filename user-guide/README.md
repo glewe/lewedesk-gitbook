@@ -26,6 +26,7 @@ What you can do depends on your role:
 * [Login and Registration](login-registration.md)
 * [Dashboard](dashboard.md)
 * [Issues](issues/README.md): list, create, read, act on, edit, comment, attach, history
+* [Release Notes](release-notes.md): what was fixed in a version
 * [Markdown](markdown.md): format your text
 * [Notifications](notifications.md)
 * [Profile](profile.md)

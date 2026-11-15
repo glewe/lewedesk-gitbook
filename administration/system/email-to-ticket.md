@@ -68,7 +68,7 @@ Without `MAILIN_AUTH_SERVER`, no mail is verified. The setting **Trust the Sende
 | Setting | Description | Default |
 | ------- | ----------- | ------- |
 | Check Interval | Seconds between two checks | 300 |
-| Issue Type, Product | Type and product of the issues made from mails (the first active type if none is chosen) | first active type, no product |
+| Issue Type, Product | Type and product of the issues made from mails. If no product is chosen, the [Default Product](settings.md) is used. The first active type is used if none is chosen. | first active type, default product |
 | Access | Who sees the issues made from mails. _Reporter only_ is the safe choice. | Reporter only |
 | Unknown Senders | What happens with mails from addresses that no user has (see below) | Reject |
 | Confirmation Mail | Send the sender the key of the issue | on |

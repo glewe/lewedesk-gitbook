@@ -15,8 +15,9 @@ The Edit page is for the support team (permission `edit_issue`). Open it with **
 | Assignee    | Only users with the role _Agent_ can be assigned                                              |
 | Summary     | Title of the issue                                                                            |
 | Description | Description in [Markdown](../markdown.md)                                                     |
-| Product     | The product the issue is about                                                                |
-| Version     | The product version                                                                           |
+| Product | Shown, but it cannot be changed here. Use the action [Move to another product](issue-actions.md#move). |
+| Affected version | The version of the product the issue occurs in |
+| Fixed version | The version of the product that fixes the issue |
 | Access      | Who may see the issue. Watchers who lose access are removed.                                  |
 | Tags        | Labels of the issue                                                                           |
 

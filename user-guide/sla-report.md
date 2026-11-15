@@ -31,7 +31,7 @@ The numbers come from what each timer stored (target, result, due time), not fro
 ## Cards and table
 
 * One card per metric (_First response_ and _Resolution_) shows the **compliance** (green from 95%, amber from 80%, red below), the number of timers, how many were in time and breached, and the **average** and **median** time that met timers needed in working time.
-* The table below lists each group with both metrics side by side and a total row. Groups with the most timers come first. Issues without a product or assignee are in the group _None_.
+* The table below lists each group with both metrics side by side and a total row. Groups with the most timers come first. Issues without an assignee are in the group _None_.
 
 ## Breached timers
 

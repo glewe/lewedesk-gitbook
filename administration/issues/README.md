@@ -7,7 +7,7 @@ These pages maintain the lists that structure your issues.
 | [Custom Views](custom-views.md)         | Saved filter combinations of the issue list of all users                    |
 | [Issue Types](issue-types.md)           | What kind of issue it is (Bug, Feature, Question, ...)                      |
 | [Priorities](priorities.md)             | How urgent an issue is (Critical, High, Normal, Low)                        |
-| [Products](products.md)                 | The product an issue is about                                               |
+| [Products](products.md)                 | The product an issue is about, its key and its versions                     |
 | [SLA Policies](sla-policies.md)         | Response and resolution targets, and which issues they apply to              |
 | [SLA Calendars](sla-calendars.md)       | Opening hours and holidays in which the SLA clock runs                      |
 | [Status](status.md)                     | Where an issue is in its life                                               |
@@ -42,4 +42,4 @@ Most of these forms share the following fields:
 
 ## Deleting records in use
 
-When you delete an issue type, status, resolution or priority that issues still use, LeweDesk asks you to select a **replacement**. All affected issues get the replacement. When you delete a product or a tag, it is simply removed from the issues.
+When you delete an issue type, status, resolution or priority that issues still use, LeweDesk asks you to select a **replacement**. All affected issues get the replacement. When you delete a product that issues still use, LeweDesk asks you to select the product these issues move to (see [Products](products.md)). When you delete a tag, it is simply removed from the issues.

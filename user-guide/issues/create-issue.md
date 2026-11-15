@@ -13,12 +13,13 @@ Click **Create issue** in the sidebar. You need to be logged in.
 | Summary     | A short title in one line (up to 200 characters). Required.                                                                 |
 | Description | Describe the issue as precisely as you can: what happened, what did you expect, and how can we reproduce it? Required. Supports [Markdown](../markdown.md) and pasted images. |
 | Tags        | Optional. Type to search the existing tags. A tag that does not exist yet is created after you confirm.                    |
-| Product     | The product the issue is about (optional)                                                                                   |
-| Version     | The version of the product the issue occurs in (optional)                                                                   |
+| Product | The product the issue is about. Required. It decides the key of the issue. The default product is preselected. |
+| Affected version | The version of the product the issue occurs in (optional). The versions of the selected product are offered, grouped by status. Archived versions are not offered. |
+| Fixed version | The version of the product that fixes the issue (optional). Usually left empty when you report an issue. |
 | Access      | Who may see this issue: _Public_, _Registered_ or _Reporter only_. The support team can always see it.                      |
 | Attachments | Files to attach (optional). See [Attachments](attachments.md).                                                              |
 
-Click **Create issue**. The issue gets its key (for example _Issue LD-123 was created_).
+Click **Create issue**. The issue gets its key: the key of the product and the next number of that product (for example _Issue LD-123 was created_).
 
 ## Writing the description
 
